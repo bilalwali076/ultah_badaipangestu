@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Bro 🎉</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: gold;
+        }
+
+        .subtitle {
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+
+        /* GALERI */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* FOTO UTAMA */
+        .main-photo {
+            margin: 50px 0;
+        }
+
+        .main-photo img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 4px solid gold;
+            box-shadow: 0 0 25px gold;
+        }
+
+        /* KUE ULTAH */
+        .cake {
+            font-size: 100px;
+            margin: 30px 0;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* API LILIN */
+        .flame {
+            font-size: 40px;
+            animation: flicker 0.3s infinite alternate;
+        }
+
+        @keyframes flicker {
+            from {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            to {
+                transform: scale(1.2);
+                opacity: 0.7;
+            }
+        }
+
+        /* MESSAGE */
+        .message-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 700px;
+            margin: 40px auto;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .message-box h2 {
+            color: gold;
+        }
+
+        .footer-message {
+            margin-top: 20px;
+            font-style: italic;
+            color: #ccc;
+        }
+
+        /* SPOTIFY */
+        .spotify {
+            margin: 40px 0;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎉 Happy Birthday, Badai Pangestu S.Pd🎉</h1>
+        <div class="subtitle">Level Up Bro 🔥</div>
+
+        <!-- 4 FOTO ATAS -->
+        <div class="gallery">
+            <img src="foto1.jpg">
+            <img src="foto4.1.jpg">
+            <img src="foto4.jpg">
+            <img src="foto2.jpg">
+        </div>
+
+        <!-- FOTO UTAMA -->
+        <div class="main-photo">
+            <img src="fotoutama.jpg">
+        </div>
+
+        <!-- KUE BERGERAK -->
+        <div class="flame">🔥</div>
+        <div class="cake">🎂</div>
+
+        <!-- UCAPAN -->
+        <div class="message-box">
+            <h2>Best Wishes 🎉</h2>
+            <p>
+                Selamat ulang tahun bro!
+                Semoga makin sukses, makin kuat,
+                dan semua target tahun ini tercapai.
+                Jangan lupa tetap rendah hati dan terus berkembang 💪🔥
+            </p>
+            <p>
+                umur lah 20 tahun berrti tambah dewasa lah cak kakak yang kemaren kito omongke,
+                kurangi overhinkingnyo ingatlah apo yang sudah direncanoke, semoga biso tercapaii
+                mogaa biso lanjut S2 jadii kepalak sekolah di MAN terus jadi pembina Osim hahahah😭😭😭ck kato kau kaan.
+                kejerlaa cito cito tunjuke bahwasannyo biso tercapai.
+            </p>
+
+            <p>"Wishing you a day as amazing as you are, my forever friend."</p>
+
+            <div class="footer-message">
+                — Dari Bilal 🤝
+            </div>
+        </div>
+
+        <!-- SPOTIFY -->
+        <div class="spotify">
+            <h2>🎵 Special Song For You</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7K7nzEGTJOKXgeHAipdBLf"
+                width="100%" height="80" frameBorder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+
+
+        </div>
+
+        <!-- 4 FOTO BAWAH -->
+        <div class="gallery">
+            <img src="foto7.jpg">
+            <img src="foto6.jpg">
+            <img src="fototidur.jpg">
+            <img src="foto5.jpg">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
